@@ -35,7 +35,8 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="header">
   <div class="container p-2">
     <a class="brand navbar-brand" href="/" on:click={linkClicked}>
-      App Name
+      <img src="/logo.png" alt="logo" />
+      Charlotte Sailing Center
     </a>
     <button
       on:click={toggleOpen}
@@ -53,10 +54,10 @@
           w-100">
           <a
             class="nav-item text-white p1"
-            href="/sub-folder/"
+            href="/about"
             class:active={segment === 'sub-folder'}
             on:click={linkClicked}>
-            Sub Folder
+            About
           </a>
         </ul>
       </div>
