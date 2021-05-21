@@ -14,15 +14,6 @@
   command = "yarn run dev" # Command to start your dev server
   port = 3000 # Port that the dev server will be listening on
   publish = "__sapper__" # If you use a _redirect file, provide the path to your static content folder
-# jamesnadeau.com
-[[redirects]]
-  from = "http://jamesnadeau.com/*"
-  to = "https://jamesjnadeau.com/:splat"
-  force = true
-[[redirects]]
-  from = "https://jamesnadeau.com/*"
-  to = "https://jamesjnadeau.com/:splat"
-  force = true
 
 # [[headers]]
 #   for = "/*"

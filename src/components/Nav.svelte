@@ -54,7 +54,7 @@
           w-100">
           <a
             class="nav-item text-white p1"
-            href="/about"
+            href="/about/"
             class:active={segment === 'sub-folder'}
             on:click={linkClicked}>
             About

@@ -5,6 +5,7 @@ export async function get(req, res) {
 	// this file is called [slug].json.js
 	const { slug } = req.params;
 	console.log(slug.join('/'));
+
 	// List the Markdown files and return their filenames
     const posts = await loadContent(slug.join('/'));
 
