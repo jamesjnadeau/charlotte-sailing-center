@@ -36,7 +36,7 @@
   <div class="container p-2">
     <a class="brand navbar-brand" href="/" on:click={linkClicked}>
       <img src="/logo.png" alt="logo" />
-      Charlotte Sailing Center
+      <div class="d-inline d-lg-sm d-lg-none d-xl-none" >Charlotte Sailing Center</div>
     </a>
     <button
       on:click={toggleOpen}
@@ -54,10 +54,31 @@
           w-100">
           <a
             class="nav-item text-white p1"
-            href="/about/"
-            class:active={segment === 'sub-folder'}
+            href="/news/"
+            class:active={segment === 'news'}
             on:click={linkClicked}>
-            About
+            News
+          </a>
+          <a
+            class="nav-item text-white p1"
+            href="/forms/"
+            class:active={segment === 'forms'}
+            on:click={linkClicked}>
+            Services & Forms
+          </a>
+          <a
+            class="nav-item text-white p1"
+            href="/classifieds/"
+            class:active={segment === 'classifieds'}
+            on:click={linkClicked}>
+            Classifieds
+          </a>
+          <a
+            class="nav-item text-white p1"
+            href="/contact/"
+            class:active={segment === 'contact'}
+            on:click={linkClicked}>
+            Contact & Directions
           </a>
         </ul>
       </div>
