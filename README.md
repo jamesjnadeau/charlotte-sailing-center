@@ -1,8 +1,9 @@
-Sapper Starter
+Charlotte Sailing Center 
 ===
-A basic starter template for a sapper site
+Created from basic starter template for a sapper site
 
-to use:
-```
-npx degit "jamesjnadeau/sapper-starter" new-app-name
-```
+use `npm run dev` to work on it locally with a live reload
+
+see `npm run build` for the production build steps
+
+this site is currently built and hosted on netlify
